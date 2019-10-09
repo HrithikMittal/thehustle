@@ -943,7 +943,6 @@ h6 {
   text-align: center;
   margin-bottom: 20px;
   position: relative;
-  border-radius: 50%;
   overflow: hidden;
 }
 
@@ -1420,4 +1419,56 @@ h6 {
   #intro {
     padding: 100px 0 20px 0;
   }
+}
+
+
+blockquote {
+font-family: Georgia, serif;
+font-size: 30px;
+text-align: center;
+padding: 0px 40px;
+position: relative;
+color: white;
+}
+
+blockquote:before {
+display: block;
+padding-left: 10px;
+content: "\201C";
+font-size: 120px;
+position: absolute;
+left: -20px;
+top: -40px;
+color: white;
+}
+
+blockquoteb {
+font-family: Georgia, serif;
+text-align: center;
+padding: 0px 40px;
+position: relative;
+color: black;
+}
+
+blockquoteb:before {
+display: block;
+padding-left: 10px;
+content: "\201C";
+font-size: 120px;
+position: absolute;
+left: -20px;
+top: -50px;
+color: black;
+}
+
+
+blockquote cite {
+color: #999999;
+font-size: 14px;
+display: block;
+margin-top: 5px;
+}
+ 
+blockquote cite:before {
+content: "\2014 \2009";
 }
